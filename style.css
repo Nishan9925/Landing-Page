@@ -1,0 +1,86 @@
+*{
+    justify-content: center;
+    display: space-between;
+}
+.mobile-size{
+    /* display:flex; */
+    width:320px;
+    height: 480px;
+    justify-content: center;
+    /* align-items: center; */
+    background-image: url("images/background-pic.png");
+    background-repeat: repeat;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+}
+
+.logo-btn{
+    width: 150px;
+    height: 100px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    font-size:large;
+    font-weight: 900;
+    background-image: url("../images/logo-pic.png");
+    background-size: 100%;
+}
+.logo-btn img{
+    width: 100%;
+    height: 100%;
+}
+
+.body-btns{
+    /* display: flex; */
+    /* justify-content:center; */
+    display: space-between;
+    align-items: center;
+}
+
+.dishes-btns{
+    width: 150px;
+    height: 70px;
+    margin-left: 5px;
+    margin-bottom: 20px;
+    /* background-size: auto; */
+    
+}
+
+#pizza-pic{
+    background-image: url("../images/pizza-pic.png");
+    background-size: 100% 100%;
+    font-weight: 900;
+    color: white;
+}
+#pasta-pic{
+    background-image: url("../images/pasta-pic.png");
+    background-size: 100% 100%;
+    font-weight: 900;
+    color: black;
+}
+#salads-pic{
+    background-image: url("../images/salads-pic.png");
+    background-size: 100% 100%;
+    font-weight: 900;
+    color: white;
+}
+#drinks-pic{
+    background-image: url("../images/drinks-pic.png");
+    background-size: 100% 100%;
+    font-weight: 900;
+    color: white;
+}
+#hot-dishes-pic{
+    background-image: url("../images/hot-dishes-pic.png");
+    background-size: 100% 100%;
+    font-weight: 900;
+    color: white;
+}
+#dessert-pic{
+    background-image: url("../images/dessert-pic.png");
+    background-size: 100% 100%;
+    font-weight: 900;
+    color: white;
+}
